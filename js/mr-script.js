@@ -5,21 +5,17 @@
 // Creiamo un array vuoto
 const boxElements = [];
 
-// definiamo in mumeri da chieder all'utente
-let numerUser = parseInt(prompt('scegli un numero!'));
-console.log(numerUser);
-
 // creo un ciclo while per chieder n numeri fino a che laloro somma e inore di 50
 // (proviamo conun flag)
 sum = 0;
-while (true ) {
+while (sum < 50 ) {
     let numerUser = parseInt(prompt('scegli un numero!'));
     console.log(numerUser);
     if(!isNaN(numerUser)) {
         boxElements.push(numerUser);
         sum += numerUser;
-        console.log(sum);
     } else {
         console.log("Per favore, inserisci un numero valido.");
     }
+    console.log(sum);
 }
