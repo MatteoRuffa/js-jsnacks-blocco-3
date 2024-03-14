@@ -6,7 +6,7 @@
  */
 
 // Fai inserire un numero, che chiameremo N, all'utente.
-let numberUser = parseInt(prompt('inserisci il numero di Array che vuoi creare'));
+let N = parseInt(prompt('inserisci il numero di Array che vuoi creare'));
 
 // Genera con una funzione N array, ognuno formato da 10 numeri casuali da 1 a 100.
 function generaArrayCasuale() {
@@ -17,7 +17,7 @@ function generaArrayCasuale() {
     return array;
 }
 
-for(let i = 0; i < numberUser; i++) {
+for(let i = 0; i < N; i++) {
     let arrayCasuale = generaArrayCasuale();
     console.log(`Array ${i+1}:`, arrayCasuale);
 }
