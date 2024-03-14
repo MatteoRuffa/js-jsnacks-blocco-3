@@ -17,5 +17,5 @@ while (sum < 50 ) {
     } else {
         console.log("Per favore, inserisci un numero valido.");
     }
-    console.log(sum);
+    console.log(boxElements);
 }
