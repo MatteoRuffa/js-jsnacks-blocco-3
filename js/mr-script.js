@@ -15,7 +15,7 @@ sum = 0;
 while (true ) {
     let numerUser = parseInt(prompt('scegli un numero!'));
     console.log(numerUser);
-    if(!isNaN(num)) {
+    if(!isNaN(numerUser)) {
         boxElements.push(numerUser);
         sum += numerUser;
         console.log(sum);
