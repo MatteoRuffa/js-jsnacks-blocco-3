@@ -17,3 +17,7 @@ function generaArrayCasuale() {
     return array;
 }
 
+for(let i = 0; i < numberUser; i++) {
+    let arrayCasuale = generaArrayCasuale();
+    console.log(`Array ${i+1}:`, arrayCasuale);
+}
