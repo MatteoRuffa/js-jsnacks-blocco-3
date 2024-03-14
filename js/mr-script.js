@@ -7,7 +7,7 @@ const boxElements = [];
 
 // creo un ciclo while per chieder n numeri fino a che laloro somma e inore di 50
 // (proviamo conun flag)
-sum = 0;
+let sum = 0;
 while (sum < 50 ) {
     let numerUser = parseInt(prompt('scegli un numero!'));
     console.log(numerUser);
