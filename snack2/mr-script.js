@@ -12,7 +12,7 @@ let N = parseInt(prompt('inserisci il numero di Array che vuoi creare'));
 function generaArrayCasuale() {
     let array = [];
     for(let i = 0; i < 10; i++) {
-        array.push(Math.floor(Math.random() * 100) + 1);
+        array.push(getRndInteger(1, 100));
     }
     return array;
 }
