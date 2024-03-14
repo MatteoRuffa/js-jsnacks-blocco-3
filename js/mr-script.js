@@ -17,5 +17,10 @@ while (sum < 50 ) {
     } else {
         console.log("Per favore, inserisci un numero valido.");
     }
-    console.log(boxElements);
+    console.log(sum);
+
+    console.log('numbers:', numerUser);
+      
 }
+console.log('Total sum: ', sum); 
+
